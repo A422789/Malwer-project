@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malware: A Comprehensive Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">CyberGuard</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#what-is">What is Malware</a></li>
+                <li><a href="#types">Types</a></li>
+                <li><a href="#spreads">How it Spreads</a></li>
+                <li><a href="#effects">Effects</a></li>
+                <li><a href="#protection">Protection</a></li>
+                <li><a href="#examples">Examples</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-3d-element">
+                <img src="image/3D_Security_Shield-removebg-preview.png" alt="3D Security Shield" class="floating-shield">
+            </div>
+            <h1 class="hero-title">Malware: A Comprehensive Guide</h1>
+            <p class="hero-subtitle">Understanding, Protecting, and Staying Safe in the Digital World</p>
+            <a href="#what-is" class="cta-button">Explore Now</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- What is Malware Section -->
+    <section id="what-is" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What is Malware?</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>Malware is a broad term for any malicious software or code designed to harm, exploit, or gain unauthorized access to a computer, network, or server. Cybercriminals use malware to steal data, disrupt operations, destroy resources, or even take complete control of systems.</p>
+                    <p>The term "malware" is a combination of "malicious" and "software," encompassing various types of harmful programs that can infiltrate and damage digital systems. From simple viruses to sophisticated ransomware, malware represents one of the most significant threats in today's interconnected digital landscape.</p>
+                </div>
+                <div class="content-visual">
+                    <img src="image/3D_Digital_Padlock-removebg-preview.avif" alt="3D Digital Padlock" class="section-3d-image hover-float">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Malware Section -->
+    <section id="types" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <img src="image/Virus_Icon-removebg-preview.png" alt="Virus Icon" class="section-icon">
+                <h2 class="section-title">Types of Malware</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="malware-grid">
+                <div class="malware-card">
+                    <div class="card-icon virus"></div>
+                    <h3>Viruses</h3>
+                    <p>Malicious programs that attach themselves to other programs and spread when the infected program is run.</p>
+                </div>
+                <div class="malware-card">
+                    <div class="card-icon worm"></div>
+                    <h3>Worms</h3>
+                    <p>Self-replicating malicious programs that spread across networks without user intervention.</p>
+                </div>
+                <div class="malware-card">
+                    <div class="card-icon trojan"></div>
+                    <h3>Trojan Horses</h3>
+                    <p>Programs disguised as legitimate software to trick users into installing them.</p>
+                </div>
+                <div class="malware-card">
+                    <div class="card-icon ransomware"></div>
+                    <h3>Ransomware</h3>
+                    <p>Encrypts user files or locks the entire system and demands a financial ransom.</p>
+                </div>
+                <div class="malware-card">
+                    <div class="card-icon spyware"></div>
+                    <h3>Spyware</h3>
+                    <p>Collects information about the user and their online activity without their knowledge.</p>
+                </div>
+                <div class="malware-card">
+                    <div class="card-icon adware"></div>
+                    <h3>Adware</h3>
+                    <p>Displays unwanted advertisements excessively and may collect user data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How Malware Spreads Section -->
+    <section id="spreads" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How Malware Spreads</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="spread-content">
+                <div class="network-visual">
+                    <img src="image/Network Data Flow.jpg" alt="Network Data Flow" class="network-bg">
+                </div>
+                <div class="spread-methods">
+                    <div class="spread-item">
+                        <div class="spread-icon email"></div>
+                        <h4>Email Attachments</h4>
+                        <p>Malicious attachments disguised as legitimate files in email messages.</p>
+                    </div>
+                    <div class="spread-item">
+                        <div class="spread-icon web"></div>
+                        <h4>Infected Websites</h4>
+                        <p>Visiting compromised or malicious websites that automatically download malware.</p>
+                    </div>
+                    <div class="spread-item">
+                        <div class="spread-icon usb"></div>
+                        <h4>USB Drives</h4>
+                        <p>Using infected USB drives or removable storage devices.</p>
+                    </div>
+                    <div class="spread-item">
+                        <div class="spread-icon download"></div>
+                        <h4>Fake Downloads</h4>
+                        <p>Downloading seemingly legitimate software that contains hidden malware.</p>
+                    </div>
+                    <div class="spread-item">
+                        <div class="spread-icon social"></div>
+                        <h4>Social Engineering</h4>
+                        <p>Tricking users into revealing sensitive information or performing harmful actions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Effects of Malware Section -->
+    <section id="effects" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Effects of Malware</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="effects-grid">
+                <div class="effect-item critical">
+                    <div class="effect-icon data-loss"></div>
+                    <h4>Data Loss or Corruption</h4>
+                    <p>Deleting, encrypting, or damaging important files and documents.</p>
+                    <div class="severity-indicator critical"></div>
+                </div>
+                <div class="effect-item high">
+                    <div class="effect-icon theft"></div>
+                    <h4>Information Theft</h4>
+                    <p>Stealing personal, financial, or sensitive business data.</p>
+                    <div class="severity-indicator high"></div>
+                </div>
+                <div class="effect-item medium">
+                    <div class="effect-icon disruption"></div>
+                    <h4>System Disruption</h4>
+                    <p>Slowing down device performance, freezing, or rendering it unusable.</p>
+                    <div class="severity-indicator medium"></div>
+                </div>
+                <div class="effect-item critical">
+                    <div class="effect-icon access"></div>
+                    <h4>Unauthorized Access</h4>
+                    <p>Allowing attackers to control the device remotely.</p>
+                    <div class="severity-indicator critical"></div>
+                </div>
+                <div class="effect-item high">
+                    <div class="effect-icon financial"></div>
+                    <h4>Financial Losses</h4>
+                    <p>Paying ransom or losses from financial data theft.</p>
+                    <div class="severity-indicator high"></div>
+                </div>
+                <div class="effect-item medium">
+                    <div class="effect-icon reputation"></div>
+                    <h4>Reputational Damage</h4>
+                    <p>Especially for organizations subjected to major attacks.</p>
+                    <div class="severity-indicator medium"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protection Methods Section -->
+    <section id="protection" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How to Protect Against Malware</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="protection-grid">
+                <div class="protection-card">
+                    <div class="protection-icon antivirus"></div>
+                    <h4>Antivirus Software</h4>
+                    <p>Install and regularly update antivirus and anti-malware software.</p>
+                    <div class="protection-level">
+                        <div class="level-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="protection-card">
+                    <div class="protection-icon updates"></div>
+                    <h4>System Updates</h4>
+                    <p>Keep operating systems and software updated to patch security vulnerabilities.</p>
+                    <div class="protection-level">
+                        <div class="level-bar" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="protection-card">
+                    <div class="protection-icon passwords"></div>
+                    <h4>Strong Passwords</h4>
+                    <p>Use strong and unique passwords with multi-factor authentication.</p>
+                    <div class="protection-level">
+                        <div class="level-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="protection-card">
+                    <div class="protection-icon backup"></div>
+                    <h4>Regular Backups</h4>
+                    <p>Regularly back up data to ensure recovery in case of infection.</p>
+                    <div class="protection-level">
+                        <div class="level-bar" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="protection-card">
+                    <div class="protection-icon firewall"></div>
+                    <h4>Firewall Protection</h4>
+                    <p>Use a firewall to monitor incoming and outgoing network traffic.</p>
+                    <div class="protection-level">
+                        <div class="level-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="protection-card">
+                    <div class="protection-icon education"></div>
+                    <h4>User Education</h4>
+                    <p>Educate users about malware risks and how to identify attacks.</p>
+                    <div class="protection-level">
+                        <div class="level-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real-World Examples & Conclusion Section -->
+    <section id="examples" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Real-World Examples & Conclusion</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="examples-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2010</div>
+                    <div class="timeline-content">
+                        <h4>Stuxnet</h4>
+                        <p>A sophisticated computer worm that targeted industrial control systems, believed to have been used to sabotage Iran's nuclear program.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2017</div>
+                    <div class="timeline-content">
+                        <h4>WannaCry</h4>
+                        <p>A global ransomware attack that affected hundreds of thousands of computers in over 150 countries.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2017</div>
+                    <div class="timeline-content">
+                        <h4>NotPetya</h4>
+                        <p>A destructive attack primarily targeting Ukraine but spreading globally, causing billions of dollars in losses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="conclusion">
+                <h3>Conclusion</h3>
+                <p>Malware poses a serious threat to individuals and organizations. Awareness, prevention, and good cyber hygiene are key to staying safe in an increasingly interconnected digital world. By understanding the types of malware, how they spread, their effects, and implementing proper protection measures, we can significantly reduce our risk of becoming victims of these malicious attacks.</p>
+                <p>Remember: cybersecurity is not a one-time setup but an ongoing process that requires constant vigilance and adaptation to new threats.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CyberGuard. Educational content about malware and cybersecurity.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
